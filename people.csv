@@ -1,0 +1,6 @@
+name,email,exclusion
+Alice,alice@mail.org,"Bob"
+Bob,bobiscoll@mail.org,"Alice, Eve"
+Charlie,kingcharle@mail.org,""
+Diana,ladydi@mail.org,""
+Eve,eve@mail.com,""
