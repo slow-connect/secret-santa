@@ -7,7 +7,7 @@ import random
 
 
 password = getpass.getpass(prompt="email password: ")
-people_information = pd.read_csv('people.csv') # people.csv needs to have 2 colums, name and email.
+people_information = pd.read_csv('people.csv') # people.csv needs to have 3 colums, name, email and exlusion
 people_information['exclusion'] = people_information.apply(lambda s: str(s['exclusion']).split(',') if str(s['exclusion']) != 'nan' else [], axis=1)
 people = list(people_information['name'])
 
